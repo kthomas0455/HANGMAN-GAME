@@ -1,0 +1,73 @@
+body{
+	background-image: url("../images/newmarvel.png")
+
+}
+
+#text1{
+	font-family: 'Bangers', cursive;	
+	font-size: 90px;
+	line-height: 26.4px;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+#text2{
+	font-family: 'Bangers', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size: 50px;
+	margin-left: 570px;
+}
+
+#text4{
+	font-family: 'Bangers', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#letsplay{
+	font-family: 'Bangers', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size: 40px;
+	margin-left: 50px;
+
+}
+
+#text3{
+	font-family: 'Bangers', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size: 25px;
+	margin-left: 50px;
+}
+
+#image{
+	position: absolute;
+	float: right;
+	margin-left: 570px;
+	opacity: 0.75;
+}
+
+#currentWord, #guessesLeft, #lettersGuessed, #wins, #losses{
+	font-size: 24px;
+	font-family: 'Bangers', cursive;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-left: 50px;
+}
+
+#emptydiv{
+	padding-top: 5%;
+}
+
+
+
+
+
+	

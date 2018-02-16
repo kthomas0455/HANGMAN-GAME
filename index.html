@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>MARVEL HANGMAN!</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div style="display:none">
+	<audio controls autoplay>
+  	<source src="hangmangame.mp3" type="audio/mpeg" loop="true" width="0" height="0">
+	</audio>
+	</div>
+
+
+	<div class="container">
+		<div id="title">
+			<h1 id="text1">MARVEL HANGMAN</h1>
+			<h3 id="text4">guess the character using letters.  HINT!! some may include a dash (Ex. iron-man) </h3>
+			<h2 id="text2">Meet the crew:</h2>
+		</div>
+
+		<div id="image">
+			<img src="http://cdn.wegotthiscovered.com/wp-content/uploads/2017/01/Marvel_characters-626x360.jpg">
+		</div>
+
+		<div>
+			<div>
+				
+				<h2 id="letsPlay">Press any key to get started!</h2>
+				<h3 id="text3">Current word:</h3>
+				<div id="currentWord"></div>
+				<div>
+						<div>
+							<h3 id="text3">Letters Guessed:</h3>
+							<div id="lettersGuessed">--</div>
+							</div>
+						<div>
+							<h3 id="text3">Guesses Left:</h3>
+							<div id="guessesLeft">--</div>
+						</div>	
+					</div>
+					<div>
+						<div>
+							<h3 id="text3">Number of Wins:</h3>
+							<div id="wins">0</div>
+						</div>
+						<div>
+							<h3 id="text3">Number of Losses:</h3>
+							<div id="losses">0</div>
+						</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div id="emptydiv"></div>
+</body>
+
+</html>
